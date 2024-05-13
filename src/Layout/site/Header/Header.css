@@ -1,0 +1,47 @@
+.top{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+  }
+  .top span{
+    transition: 0.3s;
+    padding: 20px;
+  }
+  .top span:hover{
+    color: white;
+    height: 100%;
+    background-color: #f41068;
+  }
+  .top__left{
+    height: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  .bottom__rihgt{
+  width: 30%;
+  }
+  .bottom ul{ 
+    width: 100%;
+  font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .bottom ul li {
+    margin-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .bottom ul li:hover{
+    color: #f41068;
+  }
+  
